@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Merriweather+Sans:wght@369&family=Poppins:ital,wght@0,300;0,500;0,900;1,300;1,400&family=Stint+Ultra+Condensed&family=Viaoda+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+   
+}
+.loader{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+}
+.load{
+   width: 15vh;
+   height: 15vh;
+   border: 10px solid;
+   border-top-color: rgb(109, 255, 42);
+   border-left-color: rgb(52, 235, 252);
+   border-bottom-color: rgb(252, 120, 45);
+   border-right-color: rgb(252, 52, 252);
+   border-radius: 50%;
+   animation: rotate 1s infinite;
+}
+@keyframes rotate{
+    0%{
+        
+        transform: rotate(0deg);
+    }
+    10%{        
+        transform: rotate(180deg);        
+    }
+    25%{
+        transform: rotate(360deg);
+    }
+    35%{
+        transform: rotate(180deg);
+        
+    }
+    
+    50%{
+        transform: rotate(360deg);
+    }
+    75%{
+        transform: rotate(180deg);
+        
+    }
+    100%{
+            transform: rotate(360deg);
+    }
+}
+
+
+.logoimg{
+    width: 10vw;
+    height: 15vh;
+    border-radius: 15px;
+    display: block;
+    margin: 1vh auto 0 auto;
+    box-shadow: 0 0 5px black;
+}
+.logo{
+    color: #044642;
+    font-size: 5vh;
+    font-weight: 300;
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-shadow: 2px 2px 1.5px #044642;
+}
+.cation{
+    font-size: 3.5vh;
+    font-family: 'Caveat', cursive;
+    padding-left: 53vw;
+    color: #fc6b70;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh 0vw;
+    background: #e0d9d9;
+    padding: 2.5vh 2vw;
+}
+.links li{
+    padding: 0vh 2vw;
+}
+.links li a{
+    color: #064420;
+    font-weight: 100;
+    font-size: 3.5vh;
+    font-family: 'Acme', sans-serif;
+    padding: 1vh 1vw;
+    border-radius: 25px;
+    transition: all 0.1s ease-in-out;
+}
+.links li a:hover,a:active{
+    background-color: #064420;
+    color: white;
+    box-shadow: 0 0 10px #064420,
+    0 0 20px #064420;
+}
+.slide{
+    height: 80vh;
+    width: 90vw;
+   background-image: url("https://images.livspace-cdn.com/w:1366/plain/https://d3ai42rl8fy79o.cloudfront.net/galactus/templates/2880-x-1236-Web-Page-Living-Room-Banner-(Web).jpg.1617971616711");
+   background-size: cover;
+   display: block;
+   margin:5vh auto;
+   /* border: 2px solid black; */
+   border-radius: 20px;
+   box-shadow: 10px 10px 20px black;
+   animation: slide 25s infinite;
+   transition: all 0.5s ease;
+}
+@keyframes slide{
+    0%{
+        background-image: url("https://images.livspace-cdn.com/w:1366/plain/https://d3ai42rl8fy79o.cloudfront.net/galactus/templates/2880-x-1236-Web-Page-Living-Room-Banner-(Web).jpg.1617971616711");
+    }
+    20%{
+        background-image: url("https://static.wixstatic.com/media/43b61a4980ba4462acc7a42b80c7b1ab.jpg/v1/fill/w_1900,h_1053,al_c,q_90/43b61a4980ba4462acc7a42b80c7b1ab.webp");
+    }
+    40%{
+background-image: url("https://images.livspace-cdn.com/w:1366/plain/https://d3ai42rl8fy79o.cloudfront.net/galactus/templates/2880-x-1236-Web-Page-Bedroom-Banner-(Web).jpg.1617971494807");
+    }
+    60%{
+background-image: url("https://images.livspace-cdn.com/w:1366/plain/https://d3gq2merok8n5r.cloudfront.net/bumblebee/in/livspace-vesta-1615288282-wkMjI/banner-1615288298-M39ju/l1-type-b-page-top-banner-1-d-1615288397-XCe3h.jpg");
+    }
+    80%{
+background-image: url("https://images.livspace-cdn.com/w:1366/plain/https://d3ai42rl8fy79o.cloudfront.net/galactus/templates/2880-x-1236-Web-Page-Kitchen-Banner-(Web).jpg.1618911157651");
+    }
+    100%{
+        background-image: url("https://images.livspace-cdn.com/w:1366/plain/https://d3ai42rl8fy79o.cloudfront.net/galactus/templates/2880-x-1236-Web-Page-Living-Room-Banner-(Web).jpg.1617971616711");
+    }
+}
+.capion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'ABeeZee', sans-serif;
+    margin: auto;
+    font-size: 5vh;
+    width: 40vw;   
+}
+.create{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.create .imgcreate{
+    width: 50vw;
+    height: 50vh;
+    margin: 2vh 2vw 2vh 2vw;
+    border-radius: 15px;
+}
+.para_div{
+    width: 40vw;
+}
+.create .paracreate{
+    width: 40vw;
+    color: rgba(85, 85, 85, 0.867);
+    font-size: 2.7vh;
+}
+.create span{
+    font-size: 5vh;
+    width: auto;
+    font-family: 'ABeeZee', sans-serif;
+    font-weight: 600;
+   color: #cc0007;
+    
+}
+.making{
+    width: 90vw;
+    display: block;
+    margin: auto;
+}
+.headmaking{
+       font-size: 5vh;
+       font-family: 'Noto Sans', sans-serif;
+       font-weight: 800;
+}
+.make{
+    width: 90vw;
+    margin: 4vh 0vw;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.make .logomake{
+    height: auto;
+    margin: 2vh 0vw;
+    padding: 2vh 2.5vw;
+    flex: 0 0 25vw;
+    border: 1px solid rgb(230, 230, 230);
+}
+.make .logomake img{
+    /* width: 10vw; */
+}
+.make .logomake .text{
+    font-size: 3.5vh;
+    text-align: center;
+}
+.footer{
+    text-align: center;
+    padding: 3vh 0vw;
+    background-color: rgba(228, 228, 228, 0.867);
+    margin: 2vh 1vw;
+    font-size: 3vh;
+    border-radius: 20px;
+    /* box-shadow: 5px 5px 20px black; */
+}
+.footer span{
+    font-size: 3.5vh;
+    font-weight: 700;
+}
+@media screen and (max-width: 745px){
+    .slide{
+        display: none;
+    }
+}
