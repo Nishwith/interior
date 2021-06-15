@@ -221,8 +221,3 @@ background-image: url("https://images.livspace-cdn.com/w:1366/plain/https://d3ai
     font-size: 3.5vh;
     font-weight: 700;
 }
-@media screen and (max-width: 745px){
-    .slide{
-        display: none;
-    }
-}
