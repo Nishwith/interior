@@ -186,6 +186,7 @@ background-image: url("https://images.livspace-cdn.com/w:1366/plain/https://d3ai
     width: 90vw;
     display: block;
     margin: auto;
+    overflow: hidden;
 }
 .headmaking{
        font-size: 5vh;
