@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Merriweather+Sans:wght@369&family=Poppins:ital,wght@0,300;0,500;0,900;1,300;1,400&family=Stint+Ultra+Condensed&family=Viaoda+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+   
+}
+html{
+    font-size: 62.5%;
+    transition: all .4s linear;
+}
+.loader{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+}
+.load{
+   width: 15vh;
+   height: 15vh;
+   border: 10px solid;
+   border-top-color: rgb(109, 255, 42);
+   border-left-color: rgb(52, 235, 252);
+   border-bottom-color: rgb(252, 120, 45);
+   border-right-color: rgb(252, 52, 252);
+   border-radius: 50%;
+   animation: rotate 1s infinite;
+}
+@keyframes rotate{
+    0%{
+        
+        transform: rotate(0deg);
+    }
+    10%{        
+        transform: rotate(180deg);        
+    }
+    25%{
+        transform: rotate(360deg);
+    }
+    35%{
+        transform: rotate(180deg);
+        
+    }
+    
+    50%{
+        transform: rotate(360deg);
+    }
+    75%{
+        transform: rotate(180deg);
+        
+    }
+    100%{
+            transform: rotate(360deg);
+    }
+}
+.navbar{
+    display: none;
+}
+
+
+.logoimg{
+    width: 10vw;
+    height: 15vh;
+    border-radius: 15px;
+    display: block;
+    margin: 1vh auto 0 auto;
+    box-shadow: 0 0 5px black;
+}
+.logo{
+    color: #044642;
+    font-size: 5vh;
+    font-weight: 300;
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-shadow: 2px 2px 1.5px #044642;
+}
+.cation{
+    font-size: 3.5vh;
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    color: #fc6b70;
+    margin-left: 20vw;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh 0vw;
+    background: #e0d9d9;
+    padding: 2.5vh 2vw;
+}
+.links li{
+    padding: 0vh 2vw;
+}
+.links li a{
+    color: #064420;
+    font-weight: 100;
+    font-size: 3.5vh;
+    font-family: 'Acme', sans-serif;
+    padding: 1vh 1vw;
+    border-radius: 25px;
+    transition: all 0.1s ease-in-out;
+}
+.links li a:hover,a:active{
+    background-color: #005523;
+    color: white;
+    box-shadow: 0 0 10px #005523,
+    0 0 20px #005523;
+}
+.slide{
+    height: 80vh;
+    width: 90vw;
+   background-image: url("https://images.livspace-cdn.com/w:1366/plain/https://d3ai42rl8fy79o.cloudfront.net/galactus/templates/2880-x-1236-Web-Page-Living-Room-Banner-(Web).jpg.1617971616711");
+   background-size: cover;
+   display: block;
+   margin:5vh auto;
+   /* border: 2px solid black; */
+   border-radius: 20px;
+   box-shadow: 10px 10px 10px #737373;
+   animation: slide 25s infinite;
+   transition: all 0.5s ease;
+}
+@keyframes slide{
+    0%{
+        background-image: url("https://images.livspace-cdn.com/w:1366/plain/https://d3ai42rl8fy79o.cloudfront.net/galactus/templates/2880-x-1236-Web-Page-Living-Room-Banner-(Web).jpg.1617971616711");
+    }
+    20%{
+        background-image: url("https://static.wixstatic.com/media/43b61a4980ba4462acc7a42b80c7b1ab.jpg/v1/fill/w_1900,h_1053,al_c,q_90/43b61a4980ba4462acc7a42b80c7b1ab.webp");
+    }
+    40%{
+background-image: url("https://images.livspace-cdn.com/w:1366/plain/https://d3ai42rl8fy79o.cloudfront.net/galactus/templates/2880-x-1236-Web-Page-Bedroom-Banner-(Web).jpg.1617971494807");
+    }
+    60%{
+background-image: url("https://images.livspace-cdn.com/w:1366/plain/https://d3gq2merok8n5r.cloudfront.net/bumblebee/in/livspace-vesta-1615288282-wkMjI/banner-1615288298-M39ju/l1-type-b-page-top-banner-1-d-1615288397-XCe3h.jpg");
+    }
+    80%{
+background-image: url("https://images.livspace-cdn.com/w:1366/plain/https://d3ai42rl8fy79o.cloudfront.net/galactus/templates/2880-x-1236-Web-Page-Kitchen-Banner-(Web).jpg.1618911157651");
+    }
+    100%{
+        background-image: url("https://images.livspace-cdn.com/w:1366/plain/https://d3ai42rl8fy79o.cloudfront.net/galactus/templates/2880-x-1236-Web-Page-Living-Room-Banner-(Web).jpg.1617971616711");
+    }
+}
+.capion{
+    text-align: center;
+    font-family: 'ABeeZee', sans-serif;
+    margin: 1.5vh auto;
+    font-size: 5vh;   
+}
+.create{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.create .imgcreate{
+    width: 50vw;
+    height: 50vh;
+    margin: 2vh 2vw 2vh 2vw;
+    border-radius: 15px;
+}
+.para_div{
+    width: 40vw;
+}
+.create .paracreate{
+    width: 40vw;
+    color: rgba(85, 85, 85, 0.867);
+    font-size: 2.7vh;
+}
+.create span{
+    font-size: 5vh;
+    width: auto;
+    font-family: 'ABeeZee', sans-serif;
+    font-weight: 600;
+   color: #cc0007;
+    
+}
+.making{
+    width: 90vw;
+    display: block;
+    margin: auto;
+}
+.headmaking{
+       font-size: 5vh;
+       font-family: 'Noto Sans', sans-serif;
+       font-weight: 800;
+       text-align: center;
+}
+.make{
+    width: 90vw;
+    margin: 4vh 0vw;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.make .logomake{
+    height: auto;
+    margin: 2vh 0vw;
+    padding: 2vh 2vw;
+    flex: 0 0 25vw;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #737373;
+    border: 1px solid rgb(230, 230, 230);
+}
+    
+.make .logomake .text{
+    font-size: 3.5vh;
+    text-align: center;
+}
+.footer{
+    text-align: center;
+    padding: 3vh 0vw;
+    background-color: rgba(228, 228, 228, 0.867);
+    margin: 2vh 1vw;
+    font-size: 3vh;
+    border-radius: 20px;
+    /* box-shadow: 5px 5px 20px black; */
+}
+.footer span{
+    font-size: 3.5vh;
+    font-weight: 700;
+}
+@media screen and (max-width: 1008px){
+    .cation{
+        font-size: 2.5vh;
+    }
+    .logoimg{
+        width: 20vw;}
+}
+@media screen and (max-width: 745px){
+    .navbar{
+        display: block;
+        background:#ddd;
+        line-height: 4vh;
+        padding: 1.5vh 0vw 0vh 2vw;
+    }
+    .linklogo{
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    }
+    .head{
+        position: relative;
+    }
+    #check{
+        display: none;
+    }
+    .fa-bars,.fa-times{
+        position: absolute;
+        top: 2%;
+        right:2%;
+        font-size: 3.5vh;
+        padding: 2vh 2vh;
+        border-radius: 15px;
+    }
+.navbar .links{
+    display: block;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(235, 235, 235);
+    top: 5vh;
+    left: 100%;
+    text-align: center;
+    z-index: 1;
+    overflow-y: scroll;
+    transition: all.5s;
+}
+.navbar .active{
+    left: 0%;
+}
+
+.navbar .links li{
+      display: block;
+      margin: auto;
+}
+.navbar .links li a{
+    display: block;
+    margin: 3vh auto;
+    text-align: center;
+}
+    .logoimg{
+        width: 30vw;}
+        .slide{
+            height: 50vh;
+            width: 95vw;
+            margin: 5vh auto;
+        }
+        .capion{
+            font-size: 2.5vh;
+        }
+        .create{
+            display: block;
+        }
+        .create .imgcreate{
+            width: 95vw;
+            margin: 5vh 0vw;
+            display: block;
+            margin: auto;
+        }
+        .para_div{
+            width: 95vw;
+            display: block;
+            margin: 2vh auto;
+        }
+        .create .paracreate{
+            width: 80vw;
+            font-size: 2vh;
+            text-align: center;
+            display: block;
+            margin: auto;
+        }
+        .create span{
+            font-size: 3vh;
+            display: block;
+            margin: auto;
+            text-align: center;
+        }
+        .make{
+            width: 100vw;}
+            .make .logomake .text{
+                font-size: 2.5vh;
+            }
+            .content{
+                display: none;
+            }
+            .footer span{
+                font-size: 3vh;}
+}
