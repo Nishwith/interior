@@ -12,6 +12,12 @@
     list-style: none;
    
 }
+.lSPrev{
+    content: 'f053';
+}
+.lSNext{
+    content: 'f054';
+}
 html{
     font-size: 62.5%;
     transition: all .4s linear;
