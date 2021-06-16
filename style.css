@@ -194,17 +194,18 @@ background-image: url("https://images.livspace-cdn.com/w:1366/plain/https://d3ai
        text-align: center;
 }
 .make{
-    width: 90vw;
+    width: 80vw;
     margin: 4vh 0vw;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 }
 .make .logomake{
-    height: auto;
-    margin: 2vh 0vw;
-    padding: 2vh 2vw;
-    flex: 0 0 25vw;
+    hheight: auto;
+    margin: 2vh 2vw;
+    padding: 2vh 0vw;
+    flex: 0 0 20vw;
     border-radius: 15px;
     box-shadow: 0 0 10px #737373;
     border: 1px solid rgb(230, 230, 230);
