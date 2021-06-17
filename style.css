@@ -678,8 +678,10 @@ border-radius: 20px;
             text-align: center;
         }
 
- contact{
-    width: 98%;}       .make{
+ .contact{
+    width: 98%;
+    margin: 4vh 4vw;
+}       .make{
             width: 100vw;}
             .make .logomake .text{
                 font-size: 2.5vh;
