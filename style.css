@@ -387,7 +387,7 @@ background-image: url("https://images.livspace-cdn.com/w:1366/plain/https://d3ai
 .make .logomake{
 
     height: auto;
-    margin: 2vh 2vw;
+    margin: 2vh 0vw 2vh 2vw;
     padding: 2vh 0vw;
     flex: 0 0 20vw;
     border-radius: 15px;
